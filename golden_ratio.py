@@ -64,7 +64,7 @@ if __name__ == "__main__":
         except ValueError:
             print("Invalid Input, please enter an integer")
 
-    #p = 1
+    # p = 1
     answer4 = equation_4_value(n,p)
     print(f"Estimating n={n} term using p={p}: {answer4}")
 
@@ -72,7 +72,7 @@ if __name__ == "__main__":
     seq5 = equation_5_sequence()
     actual = [fibonacci(n) for n in range(20)]
 
-    # 3) Print them side by side
+    # Print them side by side
     print(f"\nFirst 20 terms starting at F[{0}] using Eq(4) vs Eq(5):\n")
     print("i\tEq(4):\tEq(5):\tActual:")
     for i in range(20):
